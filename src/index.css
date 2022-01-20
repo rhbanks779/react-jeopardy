@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: rgb(85, 105, 165);
 }
+.header{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -.5px;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.score{
+    text-align: center;
+    
+    
+}
+.plus{
+    border-radius: 5px;
+    gap: 20px;
+    color: white;
+    background-color: blue;
+    font-size: 2.5rem;
+    
+}
+.minus{
+    border-radius: 5px;
+    color: white;
+    background-color: #e93c59;
+    font-size: 2.5rem;
+    
+}
+.reset{
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(126, 9, 9);
+    font-size: 2.5rem;
+}
+.play{
+    text-align: center;
+    color: lightyellow;
+    font-size: 3.5rem;
+}
+.getquestion{
+    text-align: center;
+}
+.questions{
+    border-radius: 5px;
+    color: yellow;
+    background-color: #e93c59;
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+.cat{
+    text-align: center;
+    color: lightyellow;
+    font-size: 2.5rem;
+}
+/* .catBox1{
+    border-style: double;
+    width: 40%;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    
+} */
+.catBox2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: monospace;
+    color:turquoise
+}
+.points{
+    text-align: center;
+    color: lightyellow;
+    font-size: 2.5rem;
+}
+.point{
+    color:greenyellow;
+}
+.answers{
+    text-align: center;
+    color: lightyellow;
+    font-size: 2.5rem;
+}
+.answer{
+    color: burlywood;
+}
+.button{
+    background-color: blue;
+    color: white;
+    font-size: 3rem;
+}
+.reveal{
+    font-size: 2rem;
+    font-family: cursive;
+    color:burlywood;
 }

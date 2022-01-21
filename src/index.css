@@ -73,21 +73,17 @@ body{
     font-family: monospace;
     color:turquoise
 }
-.points{
-    text-align: center;
-    color: lightyellow;
-    font-size: 2.5rem;
-}
+
 .point{
     color:greenyellow;
-}
-.answers{
     text-align: center;
-    color: lightyellow;
     font-size: 2.5rem;
 }
+
 .answer{
     color: burlywood;
+    text-align: center;
+    font-size: 2.5rem;
 }
 .button{
     background-color: blue;
@@ -98,4 +94,9 @@ body{
     font-size: 2rem;
     font-family: cursive;
     color:burlywood;
+}
+.quest{
+    text-align: center;
+    color: lightyellow;
+    font-size: 2.5rem;
 }
